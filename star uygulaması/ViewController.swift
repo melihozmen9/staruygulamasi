@@ -9,7 +9,13 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return kullanicilar.count
+    }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
     @IBOutlet weak var mytableview: UITableView!
     var kullanicilar = [kullanici]()
     override func viewDidLoad() {
@@ -20,13 +26,7 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return kullanicilar.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
-    }
+  
     func loaddata () {
         let kullanici1 = kullanici()
         kullanici1.firstname = "Ronaldinho"
