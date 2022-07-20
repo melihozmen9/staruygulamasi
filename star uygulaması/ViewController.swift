@@ -9,24 +9,42 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegate {
    
+    
+    @IBOutlet weak var mytableview: UITableView!
+    var kullanicilar = [kullanici]()
+    var mullanici = kullanici()
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        loaddata()
+        mytableview.dataSource = self
+        mytableview.delegate = self
+        
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return kullanicilar.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
-    }
-    @IBOutlet weak var mytableview: UITableView!
-    var kullanicilar = [kullanici]()
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        loaddata()
+        let cell = UITableViewCell()
         
-        
+        cell.textLabel?.text = kullanicilar[indexPath.row].firstname + " " + kullanicilar[indexPath.row].lastname
+        return cell
     }
     
-  
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let satir = kullanicilar[indexPath.row]
+        mullanici = satir
+        self.performSegue(withIdentifier: "todetail", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "todetail" {
+            var destinationvc = segue.destination as! detailViewController
+            destinationvc.kullanicidetay = self.mullanici
+        }
+    }
+    
     func loaddata () {
         let kullanici1 = kullanici()
         kullanici1.firstname = "Ronaldinho"

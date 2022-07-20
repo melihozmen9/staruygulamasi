@@ -15,18 +15,6 @@
 		2163C76A288493810023202D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2163C768288493810023202D /* LaunchScreen.storyboard */; };
 		2163C775288493810023202D /* star_uygulamas_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163C774288493810023202D /* star_uygulamas_Tests.swift */; };
 		2163C780288493810023202D /* star_uygulamas_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163C77F288493810023202D /* star_uygulamas_UITests.swift */; };
-		2163C7912884976F0023202D /* Cristiano_Ronaldo_2018.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C78D2884976F0023202D /* Cristiano_Ronaldo_2018.jpeg */; };
-		2163C7922884976F0023202D /* Cristiano_Ronaldo_2018.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C78D2884976F0023202D /* Cristiano_Ronaldo_2018.jpeg */; };
-		2163C7932884976F0023202D /* Cristiano_Ronaldo_2018.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C78D2884976F0023202D /* Cristiano_Ronaldo_2018.jpeg */; };
-		2163C7942884976F0023202D /* Lionel_Messi_20180626.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C78E2884976F0023202D /* Lionel_Messi_20180626.jpeg */; };
-		2163C7952884976F0023202D /* Lionel_Messi_20180626.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C78E2884976F0023202D /* Lionel_Messi_20180626.jpeg */; };
-		2163C7962884976F0023202D /* Lionel_Messi_20180626.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C78E2884976F0023202D /* Lionel_Messi_20180626.jpeg */; };
-		2163C7972884976F0023202D /* rondilho.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C78F2884976F0023202D /* rondilho.jpeg */; };
-		2163C7982884976F0023202D /* rondilho.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C78F2884976F0023202D /* rondilho.jpeg */; };
-		2163C7992884976F0023202D /* rondilho.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C78F2884976F0023202D /* rondilho.jpeg */; };
-		2163C79A2884976F0023202D /* diego-maradona-1401100569-36.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C7902884976F0023202D /* diego-maradona-1401100569-36.jpeg */; };
-		2163C79B2884976F0023202D /* diego-maradona-1401100569-36.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C7902884976F0023202D /* diego-maradona-1401100569-36.jpeg */; };
-		2163C79C2884976F0023202D /* diego-maradona-1401100569-36.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2163C7902884976F0023202D /* diego-maradona-1401100569-36.jpeg */; };
 		2163C79E288498310023202D /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163C79D288498310023202D /* detailViewController.swift */; };
 		2163C79F288498310023202D /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163C79D288498310023202D /* detailViewController.swift */; };
 		2163C7A0288498310023202D /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163C79D288498310023202D /* detailViewController.swift */; };
@@ -67,10 +55,6 @@
 		2163C77B288493810023202D /* star uygulamasıUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "star uygulamasıUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2163C77F288493810023202D /* star_uygulamas_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = star_uygulamas_UITests.swift; sourceTree = "<group>"; };
 		2163C781288493810023202D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2163C78D2884976F0023202D /* Cristiano_Ronaldo_2018.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cristiano_Ronaldo_2018.jpeg; sourceTree = "<group>"; };
-		2163C78E2884976F0023202D /* Lionel_Messi_20180626.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lionel_Messi_20180626.jpeg; sourceTree = "<group>"; };
-		2163C78F2884976F0023202D /* rondilho.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rondilho.jpeg; sourceTree = "<group>"; };
-		2163C7902884976F0023202D /* diego-maradona-1401100569-36.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "diego-maradona-1401100569-36.jpeg"; sourceTree = "<group>"; };
 		2163C79D288498310023202D /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		2163C7A528849EC40023202D /* kullanici.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kullanici.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,10 +115,6 @@
 				2163C766288493810023202D /* Assets.xcassets */,
 				2163C768288493810023202D /* LaunchScreen.storyboard */,
 				2163C76B288493810023202D /* Info.plist */,
-				2163C78D2884976F0023202D /* Cristiano_Ronaldo_2018.jpeg */,
-				2163C78E2884976F0023202D /* Lionel_Messi_20180626.jpeg */,
-				2163C7902884976F0023202D /* diego-maradona-1401100569-36.jpeg */,
-				2163C78F2884976F0023202D /* rondilho.jpeg */,
 				2163C7A528849EC40023202D /* kullanici.swift */,
 			);
 			path = "star uygulaması";
@@ -261,13 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2163C7942884976F0023202D /* Lionel_Messi_20180626.jpeg in Resources */,
-				2163C79A2884976F0023202D /* diego-maradona-1401100569-36.jpeg in Resources */,
 				2163C76A288493810023202D /* LaunchScreen.storyboard in Resources */,
 				2163C767288493810023202D /* Assets.xcassets in Resources */,
 				2163C765288493800023202D /* Main.storyboard in Resources */,
-				2163C7972884976F0023202D /* rondilho.jpeg in Resources */,
-				2163C7912884976F0023202D /* Cristiano_Ronaldo_2018.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +251,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2163C7922884976F0023202D /* Cristiano_Ronaldo_2018.jpeg in Resources */,
-				2163C79B2884976F0023202D /* diego-maradona-1401100569-36.jpeg in Resources */,
-				2163C7982884976F0023202D /* rondilho.jpeg in Resources */,
-				2163C7952884976F0023202D /* Lionel_Messi_20180626.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,10 +258,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2163C7932884976F0023202D /* Cristiano_Ronaldo_2018.jpeg in Resources */,
-				2163C79C2884976F0023202D /* diego-maradona-1401100569-36.jpeg in Resources */,
-				2163C7992884976F0023202D /* rondilho.jpeg in Resources */,
-				2163C7962884976F0023202D /* Lionel_Messi_20180626.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

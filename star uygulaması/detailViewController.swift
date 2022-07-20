@@ -10,10 +10,13 @@ import UIKit
 class detailViewController: UIViewController {
     @IBOutlet weak var myimageview: UIImageView!
     @IBOutlet weak var mylabel: UILabel!
-    
+    var kullanicidetay = kullanici()
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        mylabel.text = kullanicidetay.firstname + " " + kullanicidetay.lastname
+        
+        
         // Do any additional setup after loading the view.
     }
     
